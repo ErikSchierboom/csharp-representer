@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579
 
       - name: Install .NET
-        uses: actions/setup-dotnet@499789684c9a0d41c9b3f0d66a785ba17b1d51ab
+        uses: actions/setup-dotnet@4d4a70f4a5b2a5a5329f13be4ac933f2c9206ac0
         with:
           dotnet-version: "6.0.100"
 
